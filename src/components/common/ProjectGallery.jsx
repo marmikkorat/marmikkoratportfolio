@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+import HoverPreview from "./HoverPreview";
 
 function ProjectGallery({ images, title }) {
   const [index, setIndex] = useState(0);
@@ -16,12 +17,17 @@ function ProjectGallery({ images, title }) {
 
   return (
     <div className="gallery">
-      <img
+      <HoverPreview
         src={images[index]}
         alt={`${title} — screenshot ${index + 1}`}
-        loading="lazy"
-        decoding="async"
-      />
+      >
+        <img
+          src={images[index]}
+          alt={`${title} — screenshot ${index + 1}`}
+          loading="lazy"
+          decoding="async"
+        />
+      </HoverPreview>
 
       {hasMultiple && (
         <>

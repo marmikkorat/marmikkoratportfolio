@@ -1,6 +1,7 @@
 import SectionTitle from "./common/SectionTitle";
 import Card from "./common/Card";
 import Reveal from "./common/Reveal";
+import HoverPreview from "./common/HoverPreview";
 import { certifications } from "../data/portfolioData";
 
 function Certificates() {
@@ -17,7 +18,9 @@ function Certificates() {
             <Reveal key={item.title} delay={index * 0.08}>
               <Card className="certificate-card">
                 <div className="certificate-image">
-                  <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
+                  <HoverPreview src={item.image} alt={item.title}>
+                    <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
+                  </HoverPreview>
                 </div>
 
                 <div className="certificate-content">

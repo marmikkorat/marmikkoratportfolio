@@ -1,6 +1,7 @@
 import SectionTitle from "./common/SectionTitle";
 import Card from "./common/Card";
 import Reveal from "./common/Reveal";
+import HoverPreview from "./common/HoverPreview";
 import { achievements } from "../data/portfolioData";
 
 function Achievements() {
@@ -17,7 +18,9 @@ function Achievements() {
             <Reveal key={item.title} delay={index * 0.08}>
               <Card className="achievement-card">
                 <div className="achievement-image">
-                  <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
+                  <HoverPreview src={item.image} alt={item.title}>
+                    <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
+                  </HoverPreview>
                 </div>
 
                 <div className="achievement-content">
