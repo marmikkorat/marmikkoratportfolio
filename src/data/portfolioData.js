@@ -12,7 +12,6 @@ import certInternalAuditor from "../assets/certificates/internal-ims-auditor.web
 
 import achGreenUrja from "../assets/achievements/green-urja-award-2025.webp";
 import achGoldenAward from "../assets/achievements/nqcfi-golden-award-2019.webp";
-import achBestTeam from "../assets/achievements/best-team-of-month.webp";
 
 // ----------------------------
 // PROFILE
@@ -57,8 +56,7 @@ export const profile = {
 export const stats = [
   { value: "10+", label: "Years of Experience" },
   { value: "2.5 GW", label: "Manufacturing Capacity Led" },
-  { value: "550+", label: "Team Members Led" },
-  { value: "3", label: "Major Industry Recognition" }
+  { value: "550+", label: "Team Members Led" }
 ];
 
 // ----------------------------
@@ -266,11 +264,5 @@ export const achievements = [
     description:
       "Awarded the Golden Award for Best Record Book & Kaizen for outstanding continuous improvement initiatives.",
     image: achGoldenAward
-  },
-  {
-    title: "Best Team of the Month (4x Consecutive)",
-    description:
-      "Recognized four consecutive times as Best Team, leading initiatives in Cost Saving, Quality Circle, Yield Improvement and EHS advancement.",
-    image: achBestTeam
   }
 ];

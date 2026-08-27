@@ -1366,19 +1366,21 @@ border-radius:22px;
 
 border:1px solid rgba(15,23,42,.08);
 
+will-change:transform;
+
 }
 
 .project-image img{
 
 width:100%;
 
-transition:.5s;
+transition:transform .5s cubic-bezier(.25,.8,.25,1);
 
 }
 
 .project-image:hover img{
 
-transform:scale(1.04);
+transform:scale(1.08);
 
 }
 
@@ -1633,6 +1635,8 @@ height:240px;
 
 overflow:hidden;
 
+will-change:transform;
+
 }
 
 .achievement-image img{
@@ -1643,13 +1647,13 @@ height:100%;
 
 object-fit:cover;
 
-transition:.5s;
+transition:transform .5s cubic-bezier(.25,.8,.25,1);
 
 }
 
 .achievement-card:hover img{
 
-transform:scale(1.06);
+transform:scale(1.08);
 
 }
 
