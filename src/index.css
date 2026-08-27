@@ -2322,17 +2322,19 @@ display:flex;
 align-items:center;
 justify-content:center;
 padding:40px;
-background:rgba(10,14,25,0);
-backdrop-filter:blur(0px);
+background:rgba(10,14,25,.86);
+backdrop-filter:blur(6px);
 opacity:0;
-transition:opacity .32s ease, background .32s ease, backdrop-filter .32s ease;
-pointer-events:auto;
+visibility:hidden;
+pointer-events:none;
+transition:opacity .32s ease, visibility 0s linear .32s;
 }
 
 .hover-preview-overlay.is-visible{
 opacity:1;
-background:rgba(10,14,25,.86);
-backdrop-filter:blur(6px);
+visibility:visible;
+pointer-events:auto;
+transition:opacity .32s ease, visibility 0s linear 0s;
 }
 
 .hover-preview-image{
