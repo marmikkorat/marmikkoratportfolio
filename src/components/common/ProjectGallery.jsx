@@ -18,7 +18,9 @@ function ProjectGallery({ images, title }) {
   return (
     <div className="gallery">
       <HoverPreview
-        src={images[index]}
+        images={images}
+        index={index}
+        onIndexChange={setIndex}
         alt={`${title} — screenshot ${index + 1}`}
       >
         <img

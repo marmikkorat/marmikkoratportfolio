@@ -18,7 +18,7 @@ function Achievements() {
             <Reveal key={item.title} delay={index * 0.08}>
               <Card className="achievement-card">
                 <div className="achievement-image">
-                  <HoverPreview src={item.image} alt={item.title}>
+                  <HoverPreview images={[item.image]} alt={item.title}>
                     <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
                   </HoverPreview>
                 </div>

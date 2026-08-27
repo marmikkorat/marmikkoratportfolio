@@ -18,7 +18,7 @@ function Certificates() {
             <Reveal key={item.title} delay={index * 0.08}>
               <Card className="certificate-card">
                 <div className="certificate-image">
-                  <HoverPreview src={item.image} alt={item.title}>
+                  <HoverPreview images={[item.image]} alt={item.title}>
                     <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
                   </HoverPreview>
                 </div>
