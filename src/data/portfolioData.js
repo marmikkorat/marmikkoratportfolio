@@ -34,7 +34,7 @@ export const profile = {
   ],
 
   about:
-    "I am a manufacturing operations leader with 10 years of experience in the solar module manufacturing industry, currently overseeing a 1.2 GW production line at ACME Solar while contributing to a 3 GW expansion project. My career has been built across every level, from a Graduate Engineer Trainee commissioning a 1.2 GW line, to a Managing gigawatt scale operations.",
+    "I am a manufacturing operations leader with 10 years of experience in the solar module manufacturing industry, currently overseeing a 1.2 GW production line at ACME Solar while contributing to a 3 GW expansion project. My career has been built across every level, from a Graduate Engineer Trainee commissioning a 1.2 GW line, to a Manager driving strategy for gigawatt scale operations.",
 
   image: profileImage,
 
@@ -109,7 +109,7 @@ export const experience = [
       "Led a 300 MW module manufacturing line.",
       "Managed production of Multi, Mono, Mono PERC and Bi-facial modules per the production plan.",
       "Ensured smooth production flow by minimizing performance bottlenecks.",
-      "Successfully completed Throughput & Yield improvement projects, BOM consumption optimization and wastage reduction to achieve cost of manufacturing targets."
+      "Successfully completed Throughput & Yield improvement projects, BOM consumption optimization and wastage reduction to achieve cost-of-manufacturing targets."
     ]
   },
   {
@@ -184,16 +184,16 @@ export const projects = [
     title: "Executive Manufacturing MIS Dashboard",
 
     description:
-      "A premium manufacturing dashboard developed for executive decision making, enabling real-time monitoring of Production, Yield, Quality, Rejections and Operational KPIs across gigawatt scale solar module manufacturing lines.",
+      "A premium manufacturing dashboard developed for executive decision-making, enabling real-time monitoring of Production, OEE, Yield, Quality, Rejections and Operational KPIs across gigawatt-scale solar module manufacturing lines.",
 
     features: [
-      "Real time throughput tracking",
+      "Real-time OEE & throughput tracking",
       "Yield and rejection analytics",
-      "Shift wise production monitoring",
-      "Executive level KPI summaries"
+      "Shift-wise production monitoring",
+      "Executive-level KPI summaries"
     ],
 
-    tech: ["Power BI", "SAP", "MES"],
+    tech: ["Power BI", "SAP", "MES", "Minitab"],
 
     images: [dashboardImage],
     liveUrl: null
@@ -202,7 +202,7 @@ export const projects = [
     title: "R Grade MIS Dashboard",
 
     description:
-      "An executive grade Dash analytics app for real time tracking R-Grade (rejection) performance across a solar module manufacturing line, with drill-down Pareto and station wise reject analysis against a defined target rate.",
+      "An executive-grade Dash analytics app for tracking R-Grade (rejection) performance across a solar module manufacturing line, with live theming, drill-down Pareto and station-wise reject analysis against a defined target rate.",
 
     features: [
       "MTD & daily R-Grade % vs target tracking",
@@ -225,7 +225,7 @@ export const projects = [
 
     features: [
       "Cumulative CTM % and binning loss % KPIs",
-      "Bin class distribution table (Actual % by bin)",
+      "Bin-class distribution table (Actual % by bin)",
       "Hourly CTM trend with Tdut / Rs / Pmax / Voc / Isc overlays",
       "Pmax & CTM bell-curve comparison — Fresh vs Rework vs String Rework",
       "585W / 590W / 595W binning loss histograms"

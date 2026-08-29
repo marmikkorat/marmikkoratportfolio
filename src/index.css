@@ -2338,8 +2338,8 @@ transition:opacity .32s ease, visibility 0s linear 0s;
 }
 
 .hover-preview-image{
-max-width:min(90vw, 1100px);
-max-height:88vh;
+max-width:min(70vw, 780px);
+max-height:70vh;
 width:auto;
 height:auto;
 object-fit:contain;
