@@ -184,16 +184,16 @@ export const projects = [
     title: "Executive Manufacturing MIS Dashboard",
 
     description:
-      "A premium manufacturing dashboard developed for executive decision-making, enabling real-time monitoring of Production, OEE, Yield, Quality, Rejections and Operational KPIs across gigawatt-scale solar module manufacturing lines.",
+      "A premium manufacturing dashboard developed for executive decision-making, enabling real-time monitoring of Production, Yield, Quality, Rejections and Operational KPIs across gigawatt-scale solar module manufacturing lines.",
 
     features: [
-      "Real-time OEE & throughput tracking",
+      "Real-time throughput tracking",
       "Yield and rejection analytics",
-      "Shift-wise production monitoring",
-      "Executive-level KPI summaries"
+      "Shift wise production monitoring",
+      "Executive level KPI summaries"
     ],
 
-    tech: ["Power BI", "SAP", "MES", "Minitab"],
+    tech: ["Power BI", "SAP", "MES"],
 
     images: [dashboardImage],
     liveUrl: null
@@ -202,7 +202,7 @@ export const projects = [
     title: "R Grade MIS Dashboard",
 
     description:
-      "An executive-grade Dash analytics app for tracking R-Grade (rejection) performance across a solar module manufacturing line, with live theming, drill-down Pareto and station-wise reject analysis against a defined target rate.",
+      "An executive-grade Dashboard for real time monitoring of R-Grade (rejection) performance across a solar module manufacturing line, with live theming, drill-down Pareto and station-wise reject analysis against a defined target rate.",
 
     features: [
       "MTD & daily R-Grade % vs target tracking",
@@ -218,16 +218,16 @@ export const projects = [
     liveUrl: null
   },
   {
-    title: "CTM / Pmax Manufacturing Analysis Dashboard",
+    title: "CTM / Pmax monitoring / Analysis Dashboard",
 
     description:
-      "An interactive cell-to-module (CTM) performance and power-loss analysis tool, filtering live by date, line, cell efficiency and cell make to surface binning loss, power distribution and hourly process trends.",
+      "An interactive cell to module (CTM) performance and power loss analysis tool, filtering live by date, line, cell efficiency and cell make to surface binning loss, power distribution and hourly process trends.",
 
     features: [
       "Cumulative CTM % and binning loss % KPIs",
       "Bin-class distribution table (Actual % by bin)",
       "Hourly CTM trend with Tdut / Rs / Pmax / Voc / Isc overlays",
-      "Pmax & CTM bell-curve comparison — Fresh vs Rework vs String Rework",
+      "Pmax & CTM scatter plot comparison - Fresh vs Rework vs String Rework modules",
       "585W / 590W / 595W binning loss histograms"
     ],
 
